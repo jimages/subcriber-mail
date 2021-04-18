@@ -1,3 +1,6 @@
-fn main() {
-    println!("Hello, world!");
+use subcriber_mail::run;
+
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
+    run()?.await
 }
