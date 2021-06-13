@@ -12,6 +12,8 @@ actix-rt = "2"
 serde = { version = "~1.0.126", features = ["derive"] }
 sqlx = { version = "0.5.5", features = ["runtime-actix-rustls", "macros", "postgres", "uuid", "chrono", "migrate"] }
 config = "0.11.0"
+chrono = "0.4.19"
+uuid = { version = "0.8.2", features = ["v4"] }
 
 [lib]
 path = "src/lib.rs"
